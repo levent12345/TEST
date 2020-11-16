@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="classes" thread-count="5">
+    <test verbose="2" preserve-order="true" name="/Users/admin/Desktop/TestNG-Framework">
+        <classes>
+            <class name="pack1.Annotationss"/>
+            <class name="pack1.Annotationss2"/>
+            <class name="pack1.AssertionsEx"/>
+            <class name="pack1.DataProviderEx"/>
+            <class name="pack1.DataProviderEx2"/>
+            <class name="pack1.DependencyEx"/>
+            <class name="pack1.FirstCase"/>
+            <class name="pack1.JsExecuter"/>
+            <class name="pack1.ListenersEx"/>
+            <class name="pack1.ParalelTestEx"/>
+            <class name="pack1.ParametersEx"/>
+            <class name="pack1.SecondCase"/>
+            <class name="pack1.data"/>
+            <class name="pack1.dropDownEX"/>
+        </classes>
+    </test>
+</suite>
